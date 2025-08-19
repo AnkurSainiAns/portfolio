@@ -62,6 +62,6 @@ live10El.addEventListener("click", function () {
 })
 live11El.addEventListener("click", function () {
     console.log("clicked");
-    window.open("https://ankursainians.github.io/potfolio/","_blank");
+    window.open("https://ankursainians.github.io/portfolio/","_blank");
 
 })
