@@ -22,7 +22,7 @@ live2El.addEventListener("click", function () {
 })
 live3El.addEventListener("click", function () {
     console.log("clicked");
-    window.open("https://ankursainians.github.io/insta_login_page/","_blank");
+    window.open("https://ankursainians.github.io/Instagram-login-page/","_blank");
 
 })
 live4El.addEventListener("click", function () {
