@@ -244,3 +244,10 @@ button {
     margin-bottom: 50px;
     color: green;
 }
+#contact{
+    display: flex;
+    font-size: 25px;
+    margin-top: 20px;
+    text-wrap: wrap;
+    gap: 150px;
+}
