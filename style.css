@@ -9,6 +9,10 @@ body {
     /* padding-right: 10px; */
     /* border: 1px solid black; */
 }
+@media only screen and (max-width: 768px) {
+  /* mobile-specific styles */
+}
+
 
 #header {
     width: 100%;
