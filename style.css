@@ -12,21 +12,50 @@ body {
     /* border: 1px solid black; */
 }
 @media only screen and (max-width: 678px) {
-  /* mobile-specific styles */
+
+    #header {
+        flex-direction: column;   /* Logo upar, nav niche */
+        gap: 10px;
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;   /* Links ek-ek line me */
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    #port {
+        font-size: 24px;
+        margin-left: 0;   /* Mobile me negative margin hatao */
+    }
+
+    body {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #pro {
+        flex-direction: column; /* Project cards mobile me niche aa jaye */
+        padding: 20px;
+    }
+
+    #proj1, #proj2, #proj3, #proj4, 
+    #proj5, #proj6, #proj7, #proj8, 
+    #proj9, #proj10, #proj11 {
+        width: 100%;         /* 700px hatao */
+        height: 200px;
+    }
 }
-
-
 #header {
    
     background-color: #f0f0f0;
-    /* padding: 20px; */
-    text-align: center;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     display: flex;
     align-items: center;
-    gap: 50px;
-    justify-content: center;
+    justify-content: space-evenly;
+    ;
     /* margin-bottom: 40px; */
 
 }
@@ -34,11 +63,11 @@ body {
 nav {
    
     color: black;
-    gap: 20px;
     display: flex;
-    justify-content: right;
     align-items: center;
     font-size: 20px;
+    justify-content: space-evenly;
+    gap: 30px;
     /* margin-right: 20px; */
 }
 
